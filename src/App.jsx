@@ -1,5 +1,6 @@
-import Header from "./components/Header"
-import NavBar from "./components/NavBar"
+import HomeContent from "./components/HomeContent";
+import NavBar from "./components/NavBar";
+import Seller from "./components/Seller";
 
 function App() {
   
@@ -7,6 +8,8 @@ function App() {
     <>
       {/* <Header/> */}
       <NavBar/>
+      {/* <Seller/> */}
+      <HomeContent/>
     </>
   )
 }
