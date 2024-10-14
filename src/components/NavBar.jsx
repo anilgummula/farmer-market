@@ -33,7 +33,7 @@ function NavBar() {
             <div className='flex justify-between items-center h-16'>
                 <div className='flex gap-8 md:gap-0 p-10 md:p-0 space-x-8 md:space-x-6  justify-center items-center  '>
                     {/* <img src={pic} className='w-18 h-14 rounded-full' alt="" /> */}
-                    <h1 className='font-bold text-xl cursor-pointer'>
+                    <h1 className='font-bold text-xl'>
                     FARM<span className='text-green-500 text-2xl'>MART</span>
                     <p className='text-sm'>By Farmer Hands</p>
                     </h1>
@@ -80,11 +80,11 @@ function NavBar() {
                 
                     <ul className='md:hidden flex flex-col  space-y-3 text-xl items-center'>
                         <div className='flex py-8 gap-x-4 font-bold'>
-                            <span className='p-2 px-4 border text-green-500 border-green-500 cursor-pointer'>Join</span>
-                            <span className='p-2 px-4 bg-green-500 text-white cursor-pointer'>Login</span>
+                            <span className='p-2 px-4 border text-green-500 border-green-500'>Join</span>
+                            <span className='p-2 px-4 bg-green-500 text-white'>Login</span>
                         </div>
                         {navItems.map(({id,text})=>(
-                            <li className='hover:scale-105 hover:text-green-500 duration-150 font-semibold cursor-pointer' key={id}>
+                            <li className='font-semibold' key={id}>
                                 {/* <Link
                                 onClick={()=>setMenu(!menu)}
                                 to={text}
